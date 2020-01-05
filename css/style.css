@@ -1,26 +1,46 @@
 @font-face{
-
-    font-family: 'Gothic';
-    
+    font-family: 'Chomsky';
     src: url('../fonts/Chomsky.otf');
-
-    
-    
     }
 
 
+
+  /* HEAD*/
+  .navbar-brand{
+/* position: absolute;
+left: 75px; */
+font-family: Chomsky;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 66px;
+
+color: #000000;
+  }
+  .nav-link{
+    margin-right: 50px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #000000;
+  }
+  /*  */
 .black_txt_fire{
     display: initial;
     background:black;
     -webkit-background-clip:text;
     -webkit-text-fill-color: transparent;
-    font-family: Gothic;
+    font-family: Chomsky;
     
     font-size:200px;
    
   }
 
   .black_txt_fire:hover{
+    
     background:url("../img/fire2.gif");
     background-position-y: -5px;
     background-size: contain;
@@ -39,7 +59,7 @@
     background:white;
     -webkit-background-clip:text;
     -webkit-text-fill-color: transparent;
-    font-family: Gothic;
+    font-family: Chomsky;
   
     font-size:200px;
   }
@@ -56,5 +76,5 @@
     
   }  
   body{
-      background: red;
+      background: #C82929;
   }
