@@ -1,0 +1,60 @@
+@font-face{
+
+    font-family: 'Gothic';
+    
+    src: url('../fonts/Chomsky.otf');
+
+    
+    
+    }
+
+
+.black_txt_fire{
+    display: initial;
+    background:black;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    font-family: Gothic;
+    
+    font-size:200px;
+   
+  }
+
+  .black_txt_fire:hover{
+    background:url("../img/fire2.gif");
+    background-position-y: -5px;
+    background-size: contain;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    
+   
+    
+    -webkit-text-stroke: 2px black;
+    
+  }
+
+
+  .white_txt_fire{
+    display: initial;
+    background:white;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    font-family: Gothic;
+  
+    font-size:200px;
+  }
+
+  .white_txt_fire:hover{
+    background:url("../img/fire2.gif");
+    background-size: contain;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    
+
+    
+    -webkit-text-stroke: 2px white;
+    
+  }  
+  body{
+      background: red;
+  }
