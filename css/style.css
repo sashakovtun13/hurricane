@@ -103,7 +103,7 @@ color: #000000;
   }
   .text_main{
     cursor: default;
-    margin-top: 25vh;
+    
   }
   .main_btn{
 
@@ -149,7 +149,26 @@ color: #000000;
     font-size: 80px;
     
   }
+/* block_2 */
+.block_2{
+  height: 100vh;
+}
+.block_2 .main_btn{
+  margin-top: 100px;
+}
+h3{
 
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 59px;
+  line-height: 133.2%;
+  /* or 79px */
+  text-align: center;
+  text-transform: uppercase;
+  
+  color: #F7F7F7;
+}
   body{
       background: #161616;
   }
