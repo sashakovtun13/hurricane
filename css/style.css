@@ -81,11 +81,11 @@ color: #000000;
   /* Mein */
   /* Block_1 */
   .block_1{
-    
+    height: 100vh;
     background: #C82929;
   }
   .down{
-    position: relative;
+    position: absolute;
     bottom: 10px;
     left: calc(50% - 62px/2);
     animation: MoveUpDown 1s linear infinite;
@@ -95,7 +95,7 @@ color: #000000;
       bottom: 0;
     }
     50% {
-      bottom: 100px;
+      bottom: 20px;
     }
   }
   .down:hover{
@@ -103,7 +103,7 @@ color: #000000;
   }
   .text_main{
     cursor: default;
-    margin-top: 20vh;
+    margin-top: 25vh;
   }
   .main_btn{
 
